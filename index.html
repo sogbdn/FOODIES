@@ -1,0 +1,168 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+
+        "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+	
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<script src="js/function.js" type="text/javascript"></script>
+
+		<!-- ES2015: display th slides after window loading -->
+    <script>
+      const load = () => {
+				autoSlide();				
+      } 
+      window.onload = load; 
+    </script>
+
+		<script src="js/jquery-1.8.1.min.js" type="text/javascript"></script>
+		<link href="https://fonts.googleapis.com/css?family=Arimo|Oswald&display=swap" rel="stylesheet">
+		<link href="css/styles.css" rel="stylesheet" type="text/css" />
+		<title>OPEN FOOD</title>
+	</head>
+	
+	
+	<body >
+		<!-- HEADER start-->
+		<header>
+			<div id="logos">
+				<img src="img/logo.jpg" id= "open-logo" alt="open-logo">
+				<div id="open-food">OPEN FOOD</div>
+				<div id="4logos"> 
+					<img src="img/lang.png" alt="lang-logo">
+					<img src="img/linkedin.png" alt="linkedin-logo">
+					<img src="img/twitter.png" alt="twitter-logo">
+					<img src="img/search.png" alt="search-logo">
+				</div> 
+			</div>
+		</header>
+		<!-- HEADER end -->
+
+		<!-- NAV start -->
+		<nav>
+			<div id="navbar">
+				<ul class="mainlist">
+					<li><a href="#">NOTRE MISSION</a></li>
+					<li><a href="#">NOS OFFRES</a></li>
+					<li><a href="#Nouvelles">LIVRAISON</a></li>
+					<li><a href="#Contact" class="last-item">CONTACT</a></li>
+				</ul>
+			</div>			
+		</nav>
+		<!-- NAV end -->
+		
+		<!-- SECTION start -->
+		<section>
+			<!-- Section 1/2: Slideshow section -->
+			<div class="slidercontainer">
+
+				<!-- Full-width images with caption text -->	
+				<div class="showSlide fade">
+    			<img src="img/slide1.jpg">
+    			<span class="text">On va se régaler</span>
+				</div>
+
+				<div class="showSlide fade">
+    			<img src="img/slide2.jpg" >
+    			<div class="text">Du matin au soir</div>
+				</div>
+
+				<div class="showSlide fade">
+    			<img src="img/slide3.jpg" >
+    			<div class="text">Sans tracas</div>
+				</div>
+
+				<div class="showSlide fade">
+    			<img src="img/slide4.jpg" >
+    			<div class="text">Simply enjoy</div>
+				</div>
+				
+				<!-- Right and left buttons -->
+  			<a class="right" onclick="sliderRight()">&#10095;</a>
+				<a class="left" onclick="sliderLeft()">&#10094;</a>
+				
+				<!-- The 4 squares to know which slide is active -->
+				<div class="dot-container">
+ 					<span class="dot" onclick="currentSlide(1)"></span> 
+  				<span class="dot" onclick="currentSlide(2)"></span> 
+					<span class="dot" onclick="currentSlide(3)"></span> 
+					<span class="dot" onclick="currentSlide(4)"></span> 
+				</div>
+
+			</div>
+			<br>		
+
+			<!-- Section 2/2 text, email and social medias -->		
+			<div class="section-bottom">
+
+				<div class="section-text">
+					<p>OPEN FOOD est là pour vous aider à manger gourmand et équilibré.   </p>
+					<p>OPEN FOOD vous facilite la vie</p>
+				</div>
+
+				<div class="section-email-social"> 
+					<div class="section-email">
+						<div class="section-email-line1">
+							<span>ABONNEZ-VOUS</span>
+						</div>
+						<div class="section-email-line2 section-line2">
+							<span>A NOTRE INFOLETTRE!</span>
+						</div>
+						<div class="section-email-form">
+							<form action="/">													
+								<input type="email" name="email" id="email" placeholder="Votre courriel">
+								<input type="button" value="S'ABONNER" id="email-button">
+							</form>
+						</div>
+					</div>
+
+					<div class="section-social subsection">
+						<div  class="section-social-line1"> 
+							<span>SUIVEZ NOUS</span>	
+						</div>
+						<div class="section-social-line2 section-line2">
+							<span>SUR LES RESEAUX SOCIAUX</span>
+						</div>
+						<div class="section-social-footer">
+							<img src="img/social-footer.png" alt="linkedin & twitter-logo">		
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</section>
+		<!-- SECTION end -->
+
+		<!-- FOOTER start -->
+		<footer>
+			<div class="footer-contact"> 
+				<div id="address">
+					<img src="img/address.png" alt="logo address">
+					<span>2248 avenue Wilson  <br >Montréal (QUEBEC)<br> CANADA</span>
+				</div>
+
+				<div id="tel">
+					<img src="img/telephone.png" alt="logo telephone">
+					<span> +1-514-000-0000 </span> 
+				</div>
+
+				<div id="contact-email">
+					<img src="img/mail.png" alt="logo mail">
+					<span>INFO@OPENFOOD </span> 				
+				</div>
+			</div>
+
+			<div class="footer-copyright">
+				<span>2014 ALIGO Innovation- Tous droits réservés - Design web par MG2 MEDIA </span>
+			</div>
+		</footer>
+		<!-- FOOTER end -->
+
+	</body>
+
+</html>
+
+</div>
+
