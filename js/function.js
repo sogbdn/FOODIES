@@ -1,5 +1,3 @@
-//Your functions here
-
 var slideIndex = 1;
 
 // Right/Left controls

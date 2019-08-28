@@ -24,23 +24,23 @@
 	
 	
 	<body >
-		<!-- HEADER start-->
-		<header>
-			<div id="logos">
-				<img src="img/logo.jpg" id= "open-logo" alt="open-logo">
-				<div id="open-food">OPEN FOOD</div>
-				<div id="4logos"> 
-					<img src="img/lang.png" alt="lang-logo">
-					<img src="img/linkedin.png" alt="linkedin-logo">
-					<img src="img/twitter.png" alt="twitter-logo">
-					<img src="img/search.png" alt="search-logo">
-				</div> 
-			</div>
-		</header>
-		<!-- HEADER end -->
+		<div id="header-nav">
+			<!-- HEADER start-->
+			<header >
+				<div id="logos">
+					<img src="img/logo.jpg" id= "open-logo" alt="open-logo">
+					<div id="open-food">OPEN FOOD</div>
+					<div id="4logos"> 
+						<img src="img/lang.png" alt="lang-logo">
+						<img src="img/linkedin.png" alt="linkedin-logo">
+						<img src="img/twitter.png" alt="twitter-logo">
+						<img src="img/search.png" alt="search-logo">
+					</div> 
+				</div>
+			</header>		
 
-		<!-- NAV start -->
-		<nav>
+			<!-- NAV start -->
+			<nav>
 			<div id="navbar">
 				<ul class="mainlist">
 					<li><a href="#">NOTRE MISSION</a></li>
@@ -49,8 +49,24 @@
 					<li><a href="#Contact" class="last-item">CONTACT</a></li>
 				</ul>
 			</div>			
-		</nav>
-		<!-- NAV end -->
+			</nav>
+		</div>
+
+			<script>
+		// When the user scrolls the page, execute myFunction
+window.onscroll = function() { myFunction();};
+
+var header = document.getElementById('header-nav');
+var sticky = header.offsetTop;
+
+function myFunction() {
+	if (window.pageYOffset > sticky) {
+		header.classList.add('sticky');
+	} else {
+		header.classList.remove('sticky');
+	}
+}
+		</script>
 		
 		<!-- SECTION start -->
 		<section>
@@ -155,7 +171,7 @@
 			</div>
 
 			<div class="footer-copyright">
-				<span>2014 ALIGO Innovation- Tous droits réservés - Design web par MG2 MEDIA </span>
+				<span>2019 OPEN-FOOD - Tous droits réservés - Design web par SGB </span>
 			</div>
 		</footer>
 		<!-- FOOTER end -->
