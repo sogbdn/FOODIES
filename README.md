@@ -1,2 +1,2 @@
 # SCREENSHOTS
-![Alt text](relative/path/to/img.jpg?raw=true "Title")
+![First slide on landing page](img/Screenshot_slide1.png "Title")
