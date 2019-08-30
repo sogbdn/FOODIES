@@ -216,7 +216,7 @@ ul.third-level li {
 }
 @-webkit-keyframes fade {
 	from {
-		opacity: .4;
+		opacity: .2;
 	}
 	to {
 		opacity: 1;
