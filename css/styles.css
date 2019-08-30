@@ -89,22 +89,16 @@ li a {
 	border-right: 1px solid grey;
 }
 
-li a.last-item {
-	border-right: 0px solid grey;
-}
-
 li a:hover {
 	color: rgb(118, 226, 118);
 }
 
 li a:active {
 	background-color: rgb(118, 226, 118);
-	color: green;
 }
-
-/* ul.second-level,
+ul.second-level,
 ul.third-level {
-	padding-left: 0px;
+	padding-left: 20px;
 }
 
 ul.second-level > li {
@@ -114,8 +108,7 @@ ul.second-level > li {
 
 ul.third-level > li:hover,
 ul.second-level > li:hover {
-	background-color: grey;
-	border: 0px solid grey;
+	background-color: rgb(118, 226, 118);
 }
 
 ul.third-level > li a:hover,
@@ -123,7 +116,7 @@ ul.second-level > li a:hover {
 	color: #ffffff;
 }
 
-ul.third-level {
+/* ul.third-level {
 	left: 200px;
 	top: 3.2em;
 }
@@ -169,7 +162,7 @@ ul.third-level li {
 	background-color: rgba(115, 115, 115, 0.8);
 }
 .text {
-	color: rgb(235, 70, 133);
+	color: rgb(224, 235, 70);
 	font-size: 60pt;
 	line-height: 60pt;
 	font-family: 'Homemade Apple', cursive;
