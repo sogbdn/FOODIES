@@ -34,7 +34,7 @@ header #foodies {
 	padding-top: 10px;
 }
 #foodies {
-	margin-left: 30%;
+	margin-left: 40%;
 }
 
 .sticky {
@@ -57,12 +57,12 @@ nav ul {
 
 nav .mainlist {
 	display: inline-block;
-	margin-left: 70%;
+	margin-left: 62%;
 	padding: 0;
 	right: 0;
 }
 
-li {
+.mainlist li {
 	float: right;
 	background-color: #3d363a;
 	color: white;
@@ -70,19 +70,19 @@ li {
 	font-size: 20pt;
 }
 
-li > ul {
+.mainlist li > ul {
 	display: none;
 	position: absolute;
 }
 
-li:hover > ul {
+.mainlist li:hover > ul {
 	display: block;
 	width: 200px;
 	margin-left: 0px;
 }
 
 /* Vertical navigation bar */
-li a {
+.mainlist li a {
 	display: block;
 	color: white;
 	text-decoration: none;
@@ -90,11 +90,11 @@ li a {
 	border-right: 1px solid grey;
 }
 
-li a:hover {
+.mainlist li a:hover {
 	color: rgb(118, 226, 118);
 }
 
-li a:active {
+.mainlist li a:active {
 	background-color: rgb(118, 226, 118);
 }
 ul.second-level,
@@ -125,6 +125,18 @@ ul.second-level > li a:hover {
 ul.third-level li {
 	width: 200px;
 }*/
+
+/* RECIPES SECTION */
+.recipecategory {
+	color: rgb(235, 70, 133);
+	font-size: 5rem;
+	font-weight: bold;
+	line-height: 5rem;
+	font-family: 'Pacifico', cursive;
+}
+
+.recipesubcategory {
+}
 
 /* SLIDESHOW SECTION */
 .slidercontainer {
@@ -176,17 +188,17 @@ ul.third-level li {
 
 /* The squares indicators */
 .dot-container {
+	background-color: #3d363a;
 	text-align: center;
-	margin: 0 auto;
-	margin-top: -1.75em;
-	z-index: 100;
+	height: 30px;
 }
 
 .dot {
 	cursor: pointer;
 	height: 15px;
 	width: 15px;
-	margin: 0 2px;
+	padding: 0px;
+	margin: 0 4px;
 	background-color: #ffffff;
 	border-radius: 20%;
 	display: inline-block;
@@ -194,7 +206,7 @@ ul.third-level li {
 }
 
 .dot-container span.active {
-	background-color: rgb(235, 70, 133);
+	background-color: rgb(118, 226, 118);
 }
 
 .dot:hover {
@@ -210,7 +222,7 @@ ul.third-level li {
 }
 @-webkit-keyframes fade {
 	from {
-		opacity: .2;
+		opacity: .15;
 	}
 	to {
 		opacity: 1;
@@ -229,7 +241,7 @@ ul.third-level li {
 .section-bottom {
 	color: white;
 	background: rgb(235, 70, 133);
-	font-family: 'Pacifico', cursive;
+	font-family: 'Livvic', cursive;
 	font-weight: bold;
 	font-size: 25pt;
 	padding-left: 7em;
@@ -329,7 +341,7 @@ ul.third-level li {
 	font-size: 8pt;
 	text-align: center;
 	color: #757575;
-	background-color: #3d363a;
+	background-color: #262424;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 }
