@@ -127,15 +127,18 @@ ul.third-level li {
 }*/
 
 /* RECIPES SECTION */
-.recipecategory {
-	color: rgb(235, 70, 133);
+.recipecategory,
+.title {
+	color: rgb(118, 226, 118);
+	text-align: center;
 	font-size: 5rem;
 	font-weight: bold;
 	line-height: 5rem;
-	font-family: 'Pacifico', cursive;
+	font-family: 'Livvic', cursive;
 }
 
 .recipesubcategory {
+	font-size: 2rem;
 }
 
 /* SLIDESHOW SECTION */
