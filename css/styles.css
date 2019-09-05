@@ -1,3 +1,6 @@
+* {
+	box-sizing: border-box;
+}
 html {
 	margin: 0;
 	padding: 0;
@@ -127,18 +130,33 @@ ul.third-level li {
 }*/
 
 /* RECIPES SECTION */
-.recipecategory,
 .title {
-	color: rgb(118, 226, 118);
+	color: #262424;
 	text-align: center;
-	font-size: 5rem;
+	font-size: 2rem;
 	font-weight: bold;
 	line-height: 5rem;
-	font-family: 'Livvic', cursive;
+	font-family: 'Pacifico';
 }
 
-.recipesubcategory {
-	font-size: 2rem;
+.grid-container {
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	grid-column-gap: 50px;
+	grid-template-columns: auto auto auto;
+	background-color: gainsboro;
+	padding: 40px;
+}
+.grid-item {
+	background-color: gainsboro;
+	padding: 40px;
+	font-size: 30px;
+	text-align: center;
+	box-shadow: 10px 10px 5px grey;
+}
+.grid-item a {
+	display: block;
 }
 
 /* SLIDESHOW SECTION */
@@ -153,6 +171,7 @@ ul.third-level li {
 
 .showSlide img {
 	width: 100%;
+	height: auto;
 }
 
 .left,
