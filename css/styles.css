@@ -16,8 +16,8 @@ body {
 
 header {
 	background: white;
-	height: 100px;
-	padding: 5px 40px;
+	height: 8rem;
+	padding: 1rem 6rem;
 }
 
 header #foodies {
@@ -133,7 +133,7 @@ ul.third-level li {
 .title {
 	color: #262424;
 	text-align: center;
-	font-size: 2rem;
+	font-size: 3rem;
 	font-weight: bold;
 	line-height: 5rem;
 	font-family: 'Pacifico';
@@ -198,14 +198,15 @@ ul.third-level li {
 }
 .text {
 	color: rgb(224, 235, 70);
-	font-size: 60pt;
-	line-height: 60pt;
+	font-size: 3rem;
+	line-height: 3rem;
 	font-family: 'Homemade Apple', cursive;
 	text-align: left;
 	padding: 25px 800px 100px 80px;
 	position: absolute;
 	top: 100px;
 	width: 100%;
+	height: auto;
 }
 
 /* The squares indicators */
@@ -276,6 +277,7 @@ ul.third-level li {
 
 .section-email {
 	width: 50%;
+	height: auto;
 }
 
 .section-email-social {
@@ -286,7 +288,7 @@ ul.third-level li {
 
 .section-email-line1 {
 	font-family: 'Pacifico', cursive;
-	font-size: 48pt;
+	font-size: 3rem;
 	padding: 0;
 	margin: 0px;
 }
@@ -294,7 +296,7 @@ ul.third-level li {
 .section-email-line2 {
 	color: #333333;
 	font-family: 'Pacifico', cursive;
-	font-size: 24pt;
+	font-size: 2rem;
 }
 
 #email {
@@ -311,6 +313,7 @@ ul.third-level li {
 .section-social {
 	background-color: white;
 	width: 50%;
+	height: auto;
 	padding-left: 2rem;
 	padding-bottom: 1em;
 }
@@ -318,7 +321,7 @@ ul.third-level li {
 .section-social-line1 {
 	color: rgb(235, 70, 133);
 	font-family: 'Pacifico', cursive;
-	font-size: 48pt;
+	font-size: 3rem;
 	padding: 0;
 	margin: 0px;
 }
@@ -326,7 +329,7 @@ ul.third-level li {
 .section-social-line2 {
 	color: black;
 	font-family: 'Pacifico', cursive;
-	font-size: 24pt;
+	font-size: 2rem;
 	color: #333333;
 	margin-top: -1rem;
 }
@@ -348,7 +351,7 @@ ul.third-level li {
 	background-size: cover;
 	color: white;
 	font-family: "Arimo";
-	font-size: 16pt;
+	font-size: 1rem;
 	font-weight: bold;
 	padding: 4rem 4rem 4em 4em;
 }
@@ -360,7 +363,7 @@ ul.third-level li {
 }
 
 .footer-copyright {
-	font-size: 8pt;
+	font-size: 1rem;
 	text-align: center;
 	color: #757575;
 	background-color: #262424;
